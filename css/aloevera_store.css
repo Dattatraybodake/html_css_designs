@@ -1,0 +1,131 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container
+{
+    width: 80%;
+    min-height: 200px;
+    margin: auto;
+    /* background-color:yellow; */
+   /* border: 2px solid chocolate; */
+}
+
+.header
+{
+    width: 100%;
+    height: 80px;
+    background-color: darkorange;
+   /* border: 2px dashed black;  */
+}
+.header .heading
+{
+    float:left;
+    width: 48%;
+    height: 76px;
+    /* background-color: aliceblue; */
+  /* border: 1px solid black; */
+}
+.heading h1
+{
+    padding-left: 10px;
+    color: blue;
+    font-size: 42px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 10px;
+
+}
+.header .menus
+{
+    float: right;
+    width: 48%;
+    height: 76px;
+    padding-top: 20px;
+    /* background-color:aliceblue; */
+   /* border: 1px solid chocolate; */
+
+}
+.menus a
+{
+    color: blue;
+    font-size: 26px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 15px;
+    text-decoration: none;
+
+    padding: 10px;
+}
+
+.slider
+{
+    width: 100%;
+    min-height: 200px;
+    margin-top: 10px;
+    /* background-color: aqua;*/
+}
+.slider img
+{
+    width: 100%;
+    min-height: 200px;
+}
+
+.products
+{
+    width: 100%;
+    min-height: 450px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+    background-color: lightseagreen;
+    /* border: 1px solid black; */
+    text-align: center;
+}
+.products h1{
+ text-align: center;
+}
+
+.products .box
+{
+    width: 23%;
+    min-height: 300px; ;
+    float:left;
+    margin-top: 10px;
+    margin: 10px; 
+    text-align: justify;
+    /* border: 2px solid black; */
+}
+.box img{
+    border: 2px solid black;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+.advertise
+{
+    width: 100%;
+    /* border: 2px solid black; */
+    margin-bottom: 10px;
+    background-color: aquamarine;
+}
+.advertise .photo
+{
+    width: 38%;
+    float: left;
+}
+.advertise .content
+{
+    width: 38%;
+    float: right;
+} 
+
+.footer
+{
+    /* border: 2px dashed black; */
+    background-color:darkorange;
+    text-align: center;
+    /* line-height: 20px; */
+}
