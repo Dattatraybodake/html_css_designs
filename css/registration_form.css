@@ -1,0 +1,79 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box
+{
+    width: 80%;
+    min-height: 100px;
+    margin: auto;
+    border: 10px solid black;
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    background-color:aquamarine;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.box img
+{
+    width: 100%;
+    height: 100%;
+}
+.form
+{
+    border: 2px solid black;
+    margin: 10px;
+    padding: 20px;
+}
+.form label
+{
+    margin: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    
+    width: 90%;
+}
+.form input[type=text],[type=radio],[type=date],[type=number],[type=email]
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+    width: 90%;
+    height: 30px;
+    margin: 5px;
+    margin-bottom: 5px;
+    padding: 5px 10px;
+    outline:none;
+    border:none;
+    background: none;
+    border-bottom: 3px solid white;
+    
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.form input[type=reset],[type=submit]
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+    width: 30%;
+    height: 40px;
+    margin: 10px 40px;
+    /*padding: 5px 5px; */
+    background-color:darkgrey;
+}
+.form input[type=reset]:hover
+{
+    background-color: red;
+    color: white;
+}
+.form input[type=submit]:hover
+{
+    background-color: green;
+    color: white;
+}
+
+
