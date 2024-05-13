@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+    display: flex;
+    flex-direction: column;
+}
+.wrapper
+{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    min-height: 100px;
+    margin: auto;
+    font-family: "Lato", sans-serif;
+    /* border: 1px solid black; */
+}
+
+.logo
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    width: 100%;
+    min-height: 60px;
+    background-color: #2E5CA2;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.logo h1
+{
+    font-size: 1.3 em;
+    color: white;
+}
+.menus
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 60px;
+    background-color:#336C40;
+    /*border: 2px dotted red;
+    */margin-bottom: 10px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.menus ul
+{
+    display: flex;
+    justify-content: space-around; 
+    width: 100%;
+    align-items: center;
+
+}
+.menus ul li
+{
+    list-style-type: none;
+}
+.menus ul li a
+{
+    color:lightcyan;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+.slider
+{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    margin-bottom: 10px;
+}
+.slider img
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.box
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 500px;
+    margin-bottom: 10px;
+}
+.cards
+{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    background-color: lightcyan;
+    border: 1px solid black;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.cards .image
+{
+    display: flex;
+    width: 100%;
+    height: 200px;
+    background-image: linear-gradient(to right,#DA4453,#89216B);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    object-fit: cover;
+}
+.image img{
+    width: 75%;
+    height: 95%;
+    margin-top: 3px;
+    margin-left: 25px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.cards h2
+{
+    padding: 10px;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+}
+
+.know_more
+{
+    width: 100px;
+    height: 30px;
+    /* margin-top: 20px;
+    margin-left: 85px; */
+    font-family: "Lato", sans-serif;
+    background-color: whitesmoke;
+    color: black;
+    border: none;
+    border-radius: 15px;
+
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+.know_more:hover
+{
+    background-color:yellow;
+    color: black;
+}
+.know_more a
+{
+    text-decoration: none;
+}
+
+.footer
+{
+    width: 100%;
+    height: 100px;
+    background-color: #336C40;
+    color: lightcyan;
+    /*border: 2px solid black;*/
+    margin-top: 10px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.footer h3
+{
+    text-align: center;
+}
+
+p
+{
+    padding:5px;
+    text-align:center;
+}
+
+@media only screen and (max-width:768px)
+{
+    .wrapper
+    {
+        width: 100%;
+    }
+    .logo h1
+    {
+        font-size: 1.5em;
+    }
+    .menus
+    {
+        flex-direction: column;
+    }
+    .menus ul
+    {
+        flex-direction: column;
+    }
+    .menus:hover
+    {
+        background-color: Green;
+        color: yellow;
+    }
+    .slider img
+    {
+        width: 100%;
+        height: 100%;
+    }
+    .cards
+    {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,128 @@
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    display: flex;
+    flex-direction: column;
+}
+.wrapper
+{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    min-height: 100px;
+    margin: auto;
+    border: 2px solid black;
+}
+
+.header
+{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    flex-direction: row;
+    background-color: blue;
+    /* border: 2px solid orange; */
+    margin-bottom: 10px;
+    align-items: center;
+}
+    
+.menubar
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100px;
+    border: 2px solid black;
+    background-color: purple;
+    margin-bottom: 10px;
+}
+.box
+{
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+    height: 500px;
+    justify-content: space-between;
+    border: 2px solid black;
+    margin-bottom: 10px;
+}
+.left
+{
+    display:flex;
+    background-color: aqua;
+    width: 30%;
+    height: 498px;
+    border: 2px solid black;
+}
+.centre
+{
+    display:flex;
+    flex-direction: column;
+    background-color: blue;
+    width: 36%;
+    height: 498px;
+    border: 2px solid black;
+}
+.col
+{
+    display: flex;
+    width: 100%;
+    height: 164px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    background-color: darkcyan;
+    border: 2px solid black;
+}
+.col2
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 164px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    justify-content: space-between;
+    background-color: tomato;
+    border: 2px solid black;
+}
+.cola
+{
+    display: flex;
+    width: 49%;
+    height: 160px;
+    border: 2px solid black;
+    background-color: brown;
+}
+.colb
+{
+    display: flex;
+    width: 49%;
+    height: 160px;
+    background-color: cadetblue;
+    border: 2px solid black
+    
+}
+
+.right
+{
+    display: flex;
+    background-color: red;
+    width: 30%;
+    height: 498;
+    border: 2px solid black;
+}
+.footer
+{
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100px;
+    border: 2px solid black;
+    background-color: darkorange;
+}
