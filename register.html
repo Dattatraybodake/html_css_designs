@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/register.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="heading">
+                <h1>Registration Form</h1>
+            </div>
+            <div class="menus">
+                <a href="index.html">Home</a>
+                <a href="registration.html">Register</a>
+                <a href="login.html">Login</a>
+               
+                <a>Close</a>
+            </div>
+        </div>
+        
+        <div class="register_box">
+                <h1> Register Here...</h1>
+                <div class="form_div">
+                    <form action="#" method="post">
+                            <label type="label">Select your resume</label>
+                            <input type="file" value="newfile">
+                           
+                            <label>Select your profile photo</label>
+                            <input type="file" name="image">
+                            
+                            <label for="firstName"> Full name </label>
+                            <input type="text" id="firstName" spellcheck="true" placeholder="Enter your full name" required>
+                    
+                            <label for="mobnum"> Mobile number </label>
+                            <input type="tel" id="mobnum" placeholder="Enter your mobile number" pattern="[0-9]{3} [0-9]{3} [0-9]{4}">
+                        
+                            <label for="dob">Date of birth </label>
+                            <input type="date" id="dob" required> <br><br>
+                        
+                            <label for="email"> email </label>
+                            <input type="email" id="email" name="email" placeholder="Enter Your Email Address">
+                        
+                            <label for="select-choise">Qualification </label>
+                        <select type="option" id="select-choise"> 
+                            <option value="choise 1">--Select One--</option> 
+                            <option value="choise 2">10th</option>  
+                            <option value="choise 2">12th</option>  
+                            <option value="choise 2">Graduate</option>  
+                            <option value="choise 2">Post Graduate</option>  
+                            <option value="choise 2">Diploma</option>  
+                            <option value="choise 2">B.E</option>  
+                            <option value="choise 2">M.E</option>  
+                            <option value="choise 2">B.Tech</option>  
+                            <option value="choise 2">M.Tech</option>  
+                        </select>  
+
+                        <label>Gender</label> 
+                        <input type="radio" id="gender" name="gender" value="male"/> Male
+                        <input type="radio" id="gender" name="gender" value="female"/> Female <br><br>  
+
+                        <label>Mark Any Government Identity</label> <br> 
+
+                        <input type="checkbox" id="adhar" name="adhar" value="adhar"/>  
+                        <label for="adhar">Adhar Card</label> 
+
+                        <input type="checkbox" id="pan" name="pan" value="pan"/>  
+                        <label for="pan">Pan Card</label> 
+
+                        <input type="checkbox" id="licence" name="licence" value="licence"/>  
+                        <label for="licence">Driving licence</label><br>
+
+                        <label for="govid"> Enter Government ID Card Number: </label>
+                        <input type="text" id="govid" placeholder="Enter Your ID Number" required>
+                        
+                        <input type="submit" id="btnsubmit" text="submit">
+                        <input type="reset" id="btnreset" text="reset">
+                    </form>
+                </div>
+            </div>
+    </div>
+</body>
+</html>
